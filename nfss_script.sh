@@ -11,6 +11,3 @@ cat << EOF > /etc/exports
 EOF
 exportfs -r
 
-echo '##########################'
-echo '# PROVISION COMPLETE !!! #'
-echo '##########################'

@@ -6,6 +6,3 @@ echo "192.168.50.10:/srv/share/ /mnt nfs vers=3,noauto,x-systemd.automount 0 0" 
 systemctl daemon-reload
 systemctl restart remote-fs.target
 
-echo '##########################'
-echo '# PROVISION COMPLETE !!! #'
-echo '##########################'
